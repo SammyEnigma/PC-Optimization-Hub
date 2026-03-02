@@ -17,7 +17,7 @@
 
 # Data Collection
 
-- [FrameView](https://www.nvidia.com/en-us/geforce/technologies/frameview/) and [PresentMon](https://github.com/GameTechDev/PresentMon) can measure both frame times and [PC Latency](content/data%20collection/nvidia-reflex-end-to-end-systeme-latency-pipline.png). You can upload the CSVs [here](https://boringboredom.github.io/Frame-Time-Analysis/) to visualize the frame time data, or [here](https://boringboredom.github.io/tools/latencygrapher) to visualize the PC Latency data. [FrameView's PC Latency metric is only available in supported games](https://www.nvidia.com/en-us/geforce/technologies/reflex/supported-products/).
+- [FrameView](https://www.nvidia.com/en-us/geforce/technologies/frameview/) and [PresentMon](https://github.com/GameTechDev/PresentMon) can measure both frame times and [PC Latency](content/data%20collection/nvidia-reflex-end-to-end-system-latency-pipline.png). You can upload the CSVs [here](https://boringboredom.github.io/Frame-Time-Analysis/) to visualize the frame time data, or [here](https://boringboredom.github.io/tools/latencygrapher) to visualize the PC Latency data. [FrameView's PC Latency metric is only available in supported games](https://www.nvidia.com/en-us/geforce/technologies/reflex/supported-products/).
 
 # Physical setup
 
@@ -73,7 +73,7 @@
           - Test 1: Set the frame rate to half of your monitor's refresh rate.
           - Test 2: Set the frame rate 5-10 FPS **_below_** half of your monitor's refresh rate.
           - Test 3: Set the frame rate 5-10 FPS **_above_** half of your monitor's refresh rate.
-          - Test 2 & 3 will stutter, while Test 1 will be smooth.
+          - Tests 2 and 3 will stutter, while Test 1 will be smooth.
       - [Further information](https://forums.blurbusters.com/viewtopic.php?t=4914&start=130#p51780)
       - To prevent mistiming, you can either use VRR or cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any positive integer):
         - X \* Y
@@ -129,8 +129,8 @@
   Note: I am not advocating using pre-made ISOs; on the contrary, you should make your own.
 - I highly recommend [setting up a multi-boot environment](content/multi-booting/multi-booting.md#how-to-multi-boot-windows-7-10-in-uefi-mode-on-a-single-drive) to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
 - As usual, disable everything you don't explicitly need and avoid installing unnecessary and bloated drivers (included in, e.g., Realtek audio or gaming peripheral software).
-- A lot of the default system tools lack functionality. For example, the Task Manager is an inaccurate representation of system load since it only displays Core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch), which can be very expensive.  
-  Here are some supplements for various system tools ([Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/) and [Nirsoft](https://www.nirsoft.net/utils/index.html) have a lot more):
+- A lot of the default system tools lack functionality. For example, the Task Manager is an inaccurate representation of system load since it only displays core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch), which can be very expensive.  
+  Here are some supplements for various system tools ([Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/) and [NirSoft](https://www.nirsoft.net/utils/index.html) have a lot more):
   - Task Manager: [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](content/windows/process%20explorer%20settings.reg)
   - Startup section of Task Manager: [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
   - Services: [Serviwin](https://www.nirsoft.net/utils/serviwin.html)
@@ -330,7 +330,7 @@
   - Epic Games: [Legendary](https://github.com/derrod/legendary)
   - Spotify: [Foobar2000](https://www.foobar2000.org/)
   - GHUB / LGS: [Logitech Onboard Memory Manager](https://support.logi.com/hc/en-us/articles/360059641133)
-  - Antivirus software: [Virustotal](https://www.virustotal.com/gui/home/upload), [Hybrid Analysis](https://www.hybrid-analysis.com/) & [uBlock Origin](https://github.com/gorhill/uBlock)
+  - Antivirus software: [VirusTotal](https://www.virustotal.com/gui/home/upload), [Hybrid Analysis](https://www.hybrid-analysis.com/) & [uBlock Origin](https://github.com/gorhill/uBlock)
   - Chrome: [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
 - ## Miscellaneous
   - [Geizhals database](https://geizhals.eu/) (useful for finding specific hardware due to the very extensive filtering functionality)
