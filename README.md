@@ -1,3 +1,5 @@
+# PC Optimization Hub: a collection of various resources devoted to performance and input lag optimization
+
 # Importance of low input lag and high refresh rate
 
 - [Visual demonstration of 1 vs. 10 milliseconds](https://youtu.be/vOvQCPLkPt4?t=80)
@@ -127,7 +129,7 @@
 
 - The never-ending background bloat of Windows reduces performance significantly ([1](https://youtu.be/hwNAa_OdP1w) [2](https://youtu.be/yVNkMNVv4Y4) [3](https://youtu.be/NzAeAFudylI)).  
   Note: I am not advocating using pre-made ISOs; on the contrary, you should make your own.
-- I highly recommend [setting up a multi-boot environment](content/multi-booting/multi-booting.md#how-to-multi-boot-windows-7-10-in-uefi-mode-on-a-single-drive) to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
+- I highly recommend [setting up a multi-boot environment](content/multi-booting/multi-booting.md#how-to-multi-boot-windows-7-11-in-uefi-mode-on-a-single-drive) to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
 - As usual, disable everything you don't explicitly need and avoid installing unnecessary and bloated drivers (included in, e.g., Realtek audio or gaming peripheral software).
 - A lot of the default system tools lack functionality. For example, the Task Manager is an inaccurate representation of system load since it only displays core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch), which can be very expensive.  
   Here are some supplements for various system tools ([Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/) and [NirSoft](https://www.nirsoft.net/utils/index.html) have a lot more):
@@ -339,7 +341,3 @@
   - [Mindfactory](https://www.mindfactory.de/) and [Alza](https://www.alza.cz/) list per-product complaint rates.
 
 # [My Twitter](https://twitter.com/Bra1nlet)
-
-# Keywords for Google indexing (ignore this)
-
-input lag latency optimization performance gaming overclock oc windows ping debloat milliseconds fps boost increase decrease guide mouse tweak tweaks bios uefi pc overclocking 7 8.1 8 10 11 w7 w8 w8.1 w10 w11 linux steamos game gamer optimizations frametime frametimes 0.1 1 1080p 720p reaction time vrt average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo cs2 deadlock marvel rivals dota league of legends valorant rocket league rainbow six pubg super people warzone halo infinite tarkov rust starcraft destiny ow fn cod lol kovaak aim trainer krunker battlefield bf roblox super smash bros delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia rtx dlss fsr xess amd ati ryzen r9 r7 r5 r3 radeon rdna core i9 i7 i5 i3 lake memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference dpc isr rla reflex latency analyzer
